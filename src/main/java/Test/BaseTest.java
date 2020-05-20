@@ -20,6 +20,8 @@ public class BaseTest {
 	
 	@Test
 	public static void trys () {
+		System.out.println(Basics.Base.driver.findElement(By.cssSelector
+				("a[title = 'אתר ערוץ הספורט']")).getText());
 		Basics.Base.driver.findElement(By.cssSelector
 				("a[href = 'https://www.sport5.co.il/html/pages/GamesResults.html']")).click();
 		System.out.println("sucess");
