@@ -3,6 +3,7 @@ package Basics;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,7 +24,7 @@ public class Base {
 		wait = new WebDriverWait(driver, 20);
 	}
 	
-	public static void openSystem() {
+	public static void openSystem() throws InterruptedException {
 		driver.get("https://www.nba.com/");
 	}
 	
@@ -37,4 +38,5 @@ public class Base {
 	public static void closeDriver() {
 		driver.quit();
 	}
+	
 }
