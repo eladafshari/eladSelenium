@@ -1,6 +1,7 @@
 package Test;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -22,7 +23,8 @@ public class BaseTest {
 	public static void trys () throws InterruptedException {
 		Basics.Base.driver.findElement(By.cssSelector
 				("a[href = 'https://www.sport5.co.il/html/pages/GamesResults.html']")).click();
-		Thread.sleep(7000);
+		Basics.Base.wait.until(ExpectedConditions.visibilityOfElementLocated
+				(By.cssSelector(".winnerbtn")));
 		System.out.println(Basics.Base.driver.findElement(By.cssSelector
 				(".winnerbtn")).getText());
 		System.out.println("sucess");
