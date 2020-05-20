@@ -20,7 +20,7 @@ public class BaseTest {
 	
 	@Test
 	public static void trys () throws InterruptedException {
-		Thread.sleep(3000);
+		Thread.sleep(7000);
 		System.out.println(Basics.Base.driver.findElement(By.cssSelector
 				("a[title = 'אתר ערוץ הספורט']")).getText());
 		Basics.Base.driver.findElement(By.cssSelector
