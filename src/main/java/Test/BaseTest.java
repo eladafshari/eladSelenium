@@ -21,8 +21,8 @@ public class BaseTest {
 	
 	@Test
 	public static void trys () throws InterruptedException {
-		System.out.println(Basics.Base.driver.findElement(By.cssSelector
-				("a[href = 'https://mail.google.com/mail/?tab=wm&authuser=1&ogbl']")).getText());
+		System.out.println(Basics.Base.driver.findElement(By.xpath
+				("//a[text() = 'Gmail']")).getText());
 		System.out.println("sucess");
 	}
 	
