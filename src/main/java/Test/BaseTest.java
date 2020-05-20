@@ -22,6 +22,7 @@ public class BaseTest {
 	public static void trys () {
 		Basics.Base.driver.findElement(By.cssSelector
 				("a[href = 'https://www.sport5.co.il/html/pages/GamesResults.html']")).click();
+		System.out.println("sucess");
 	}
 	
 	@AfterSuite
