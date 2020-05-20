@@ -20,11 +20,11 @@ public class BaseTest {
 	
 	@Test
 	public static void trys () throws InterruptedException {
-		Thread.sleep(7000);
-		System.out.println(Basics.Base.driver.findElement(By.cssSelector
-				("a[title = 'אתר ערוץ הספורט']")).getText());
 		Basics.Base.driver.findElement(By.cssSelector
 				("a[href = 'https://www.sport5.co.il/html/pages/GamesResults.html']")).click();
+		Thread.sleep(7000);
+		System.out.println(Basics.Base.driver.findElement(By.cssSelector
+				(".winnerbtn")).getText());
 		System.out.println("sucess");
 	}
 	
