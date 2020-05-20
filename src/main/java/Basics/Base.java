@@ -25,7 +25,7 @@ public class Base {
 	}
 	
 	public static void openSystem() throws InterruptedException {
-		driver.get("https://www.nba.com/");
+		driver.get("https://www.google.com/webhp?authuser=1");
 	}
 	
 	/*public static void initalizePropertiesFile() throws Exception {

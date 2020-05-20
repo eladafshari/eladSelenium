@@ -21,12 +21,8 @@ public class BaseTest {
 	
 	@Test
 	public static void trys () throws InterruptedException {
-		Basics.Base.driver.findElement(By.cssSelector
-				("a[href = 'https://www.sport5.co.il/html/pages/GamesResults.html']")).click();
-		Basics.Base.wait.until(ExpectedConditions.visibilityOfElementLocated
-				(By.cssSelector(".winnerbtn")));
 		System.out.println(Basics.Base.driver.findElement(By.cssSelector
-				(".winnerbtn")).getText());
+				("a[href = 'https://mail.google.com/mail/?tab=wm&authuser=1&ogbl']")).getText());
 		System.out.println("sucess");
 	}
 	
