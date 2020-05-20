@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29" started-at="2020-05-20T16:50:49 IDT" finished-at="2020-05-20T16:50:49 IDT">
+  <suite name="Suite" duration-ms="237" started-at="2020-05-20T18:04:43 IDT" finished-at="2020-05-20T18:04:43 IDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29" started-at="2020-05-20T16:50:49 IDT" finished-at="2020-05-20T16:50:49 IDT">
+    <test name="Test" duration-ms="237" started-at="2020-05-20T18:04:43 IDT" finished-at="2020-05-20T18:04:43 IDT">
       <class name="Test.BaseTest">
-        <test-method status="PASS" signature="StartTest()[pri:0, instance:Test.BaseTest@4b553d26]" name="StartTest" is-config="true" duration-ms="9830" started-at="2020-05-20T16:50:39 IDT" finished-at="2020-05-20T16:50:49 IDT">
+        <test-method status="PASS" signature="StartTest()[pri:0, instance:Test.BaseTest@4b553d26]" name="StartTest" is-config="true" duration-ms="8745" started-at="2020-05-20T18:04:34 IDT" finished-at="2020-05-20T18:04:43 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartTest -->
-        <test-method status="PASS" signature="trys()[pri:0, instance:Test.BaseTest@4b553d26]" name="trys" duration-ms="4" started-at="2020-05-20T16:50:49 IDT" finished-at="2020-05-20T16:50:49 IDT">
+        <test-method status="PASS" signature="trys()[pri:0, instance:Test.BaseTest@4b553d26]" name="trys" duration-ms="211" started-at="2020-05-20T18:04:43 IDT" finished-at="2020-05-20T18:04:43 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trys -->
-        <test-method status="PASS" signature="EndTest()[pri:0, instance:Test.BaseTest@4b553d26]" name="EndTest" is-config="true" duration-ms="639" started-at="2020-05-20T16:50:49 IDT" finished-at="2020-05-20T16:50:50 IDT">
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:Test.BaseTest@4b553d26]" name="EndTest" is-config="true" duration-ms="675" started-at="2020-05-20T18:04:43 IDT" finished-at="2020-05-20T18:04:44 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndTest -->

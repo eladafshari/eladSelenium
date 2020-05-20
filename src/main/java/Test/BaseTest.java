@@ -1,5 +1,6 @@
 package Test;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -19,6 +20,8 @@ public class BaseTest {
 	
 	@Test
 	public static void trys () {
+		Basics.Base.driver.findElement(By.cssSelector
+				("a[href = 'https://www.sport5.co.il/html/pages/GamesResults.html']")).click();
 	}
 	
 	@AfterSuite
