@@ -34,5 +34,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/selenium/ExtentReport/ExtentReports4.0.9/GetScreenshot.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
