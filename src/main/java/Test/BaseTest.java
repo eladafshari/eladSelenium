@@ -15,7 +15,7 @@ public class BaseTest {
 	public static void StartTest () throws InterruptedException {
 		Base.initializeDriver();
 		Base.initializeWait();
-		//Reporter.initializeRepot();
+		Reporter.initializeRepot();
 		Base.openSystem();
 	}
 	
@@ -30,7 +30,7 @@ public class BaseTest {
 	
 	@AfterSuite
 	public static void EndTest() {
-		//Reporter.generateReport();
+		Reporter.generateReport();
 		Base.closeDriver();
 	}
 }
