@@ -44,7 +44,7 @@ public class Reporter {
     }
 
     public static void passStep(String description, String imageName) {
-       // log(Status.PASS, description, imageName);
+        log(Status.PASS, description, imageName);
     }
 
     public static void failStep(String description) {
@@ -52,7 +52,7 @@ public class Reporter {
     }
 
     public static void failStep(String description, String imageName) {
-        //log(Status.FAIL, description, imageName);
+        log(Status.FAIL, description, imageName);
     }
 
     public static void infoStep(String description) {
@@ -60,14 +60,14 @@ public class Reporter {
     }
 
     public static void infoStep(String description, String imageName) {
-       // log(Status.INFO, description, imageName);
+        log(Status.INFO, description, imageName);
     }
 
     public static void skipStep(String description) {
         log(Status.SKIP, description);
     }
 
-    /*private static void log(Status status, String description, String imageName) {
+    private static void log(Status status, String description, String imageName) {
         if (extentTest == null) {
             throw (new NullPointerException("Before you log a step, you need to create a test."));
         }
@@ -84,27 +84,27 @@ public class Reporter {
                 extentTest.log(status, description, screenshot);
             }
         }
-    }*/
-
-    private static void log(Status status, String description) {
-        //Reporter.log(status, description, null);
     }
 
-   /* private static MediaEntityModelProvider getScreenshotAsMediaEntityModel(String imageName) {
+    private static void log(Status status, String description) {
+        Reporter.log(status, description, null);
+    }
+
+    private static MediaEntityModelProvider getScreenshotAsMediaEntityModel(String imageName) {
         if (imageName == null) {
             return (null);
         }
 
         try {
             return (MediaEntityBuilder.createScreenCaptureFromPath(
-                    GetScreenshot.Capture(Base.driver, imageName))
+                    ScreenShot.capture(Base.driver, imageName))
                     .build());
         }
         catch (IOException ex) {
             infoStep("Could not get " + imageName + " screenshot.");
             return (null);
         }
-    }*/
+    }
 
     public static void setTestAuthor(String name) {
         if (extentTest != null) {
