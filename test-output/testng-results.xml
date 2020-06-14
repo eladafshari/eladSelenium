@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="441" started-at="2020-06-01T12:18:41 IDT" finished-at="2020-06-01T12:18:42 IDT">
+  <suite name="Default suite" duration-ms="384" started-at="2020-06-01T12:30:49 IDT" finished-at="2020-06-01T12:30:49 IDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="441" started-at="2020-06-01T12:18:41 IDT" finished-at="2020-06-01T12:18:42 IDT">
+    <test name="Default test" duration-ms="384" started-at="2020-06-01T12:30:49 IDT" finished-at="2020-06-01T12:30:49 IDT">
       <class name="Test.BaseTest">
-        <test-method status="PASS" signature="StartTest()[pri:0, instance:Test.BaseTest@4b553d26]" name="StartTest" is-config="true" duration-ms="9868" started-at="2020-06-01T12:18:31 IDT" finished-at="2020-06-01T12:18:41 IDT">
+        <test-method status="PASS" signature="StartTest()[pri:0, instance:Test.BaseTest@2f943d71]" name="StartTest" is-config="true" duration-ms="7264" started-at="2020-06-01T12:30:42 IDT" finished-at="2020-06-01T12:30:49 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartTest -->
-        <test-method status="PASS" signature="trys()[pri:0, instance:Test.BaseTest@4b553d26]" name="trys" duration-ms="413" started-at="2020-06-01T12:18:41 IDT" finished-at="2020-06-01T12:18:42 IDT">
+        <test-method status="PASS" signature="trys()[pri:0, instance:Test.BaseTest@2f943d71]" name="trys" duration-ms="366" started-at="2020-06-01T12:30:49 IDT" finished-at="2020-06-01T12:30:49 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trys -->
-        <test-method status="PASS" signature="EndTest()[pri:0, instance:Test.BaseTest@4b553d26]" name="EndTest" is-config="true" duration-ms="935" started-at="2020-06-01T12:18:42 IDT" finished-at="2020-06-01T12:18:42 IDT">
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:Test.BaseTest@2f943d71]" name="EndTest" is-config="true" duration-ms="991" started-at="2020-06-01T12:30:49 IDT" finished-at="2020-06-01T12:30:50 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndTest -->
       </class> <!-- Test.BaseTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
